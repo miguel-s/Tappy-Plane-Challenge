@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39641453195A178300512203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39641452195A178300512203 /* Foundation.framework */; };
+		39641455195A178300512203 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39641454195A178300512203 /* CoreGraphics.framework */; };
+		39641457195A178300512203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39641456195A178300512203 /* UIKit.framework */; };
+		39641459195A178300512203 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39641458195A178300512203 /* SpriteKit.framework */; };
+		3964145F195A178300512203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3964145D195A178300512203 /* InfoPlist.strings */; };
+		39641461195A178300512203 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39641460195A178300512203 /* main.m */; };
+		39641465195A178300512203 /* MSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39641464195A178300512203 /* MSAppDelegate.m */; };
+		39641468195A178300512203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39641466195A178300512203 /* Main.storyboard */; };
+		3964146B195A178300512203 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3964146A195A178300512203 /* MSViewController.m */; };
+		3964146E195A178300512203 /* MSMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3964146D195A178300512203 /* MSMyScene.m */; };
+		39641470195A178300512203 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 3964146F195A178300512203 /* Spaceship.png */; };
+		39641472195A178300512203 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39641471195A178300512203 /* Images.xcassets */; };
+		39641479195A178300512203 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39641478195A178300512203 /* XCTest.framework */; };
+		3964147A195A178300512203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39641452195A178300512203 /* Foundation.framework */; };
+		3964147B195A178300512203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39641456195A178300512203 /* UIKit.framework */; };
+		39641483195A178300512203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39641481195A178300512203 /* InfoPlist.strings */; };
+		39641485195A178300512203 /* Tappy_Plane_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39641484195A178300512203 /* Tappy_Plane_ChallengeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3964147C195A178300512203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39641447195A178300512203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3964144E195A178300512203;
+			remoteInfo = "Tappy Plane Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3964144F195A178300512203 /* Tappy Plane Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tappy Plane Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39641452195A178300512203 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39641454195A178300512203 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39641456195A178300512203 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39641458195A178300512203 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		3964145C195A178300512203 /* Tappy Plane Challenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tappy Plane Challenge-Info.plist"; sourceTree = "<group>"; };
+		3964145E195A178300512203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39641460195A178300512203 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39641462195A178300512203 /* Tappy Plane Challenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tappy Plane Challenge-Prefix.pch"; sourceTree = "<group>"; };
+		39641463195A178300512203 /* MSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAppDelegate.h; sourceTree = "<group>"; };
+		39641464195A178300512203 /* MSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAppDelegate.m; sourceTree = "<group>"; };
+		39641467195A178300512203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39641469195A178300512203 /* MSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
+		3964146A195A178300512203 /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		3964146C195A178300512203 /* MSMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMyScene.h; sourceTree = "<group>"; };
+		3964146D195A178300512203 /* MSMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMyScene.m; sourceTree = "<group>"; };
+		3964146F195A178300512203 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		39641471195A178300512203 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39641477195A178300512203 /* Tappy Plane ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tappy Plane ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39641478195A178300512203 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		39641480195A178300512203 /* Tappy Plane ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tappy Plane ChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		39641482195A178300512203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39641484195A178300512203 /* Tappy_Plane_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tappy_Plane_ChallengeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3964144C195A178300512203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39641455195A178300512203 /* CoreGraphics.framework in Frameworks */,
+				39641457195A178300512203 /* UIKit.framework in Frameworks */,
+				39641459195A178300512203 /* SpriteKit.framework in Frameworks */,
+				39641453195A178300512203 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39641474195A178300512203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39641479195A178300512203 /* XCTest.framework in Frameworks */,
+				3964147B195A178300512203 /* UIKit.framework in Frameworks */,
+				3964147A195A178300512203 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39641446195A178300512203 = {
+			isa = PBXGroup;
+			children = (
+				3964145A195A178300512203 /* Tappy Plane Challenge */,
+				3964147E195A178300512203 /* Tappy Plane ChallengeTests */,
+				39641451195A178300512203 /* Frameworks */,
+				39641450195A178300512203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39641450195A178300512203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3964144F195A178300512203 /* Tappy Plane Challenge.app */,
+				39641477195A178300512203 /* Tappy Plane ChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39641451195A178300512203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39641452195A178300512203 /* Foundation.framework */,
+				39641454195A178300512203 /* CoreGraphics.framework */,
+				39641456195A178300512203 /* UIKit.framework */,
+				39641458195A178300512203 /* SpriteKit.framework */,
+				39641478195A178300512203 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3964145A195A178300512203 /* Tappy Plane Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				39641463195A178300512203 /* MSAppDelegate.h */,
+				39641464195A178300512203 /* MSAppDelegate.m */,
+				39641466195A178300512203 /* Main.storyboard */,
+				39641469195A178300512203 /* MSViewController.h */,
+				3964146A195A178300512203 /* MSViewController.m */,
+				3964146C195A178300512203 /* MSMyScene.h */,
+				3964146D195A178300512203 /* MSMyScene.m */,
+				3964146F195A178300512203 /* Spaceship.png */,
+				39641471195A178300512203 /* Images.xcassets */,
+				3964145B195A178300512203 /* Supporting Files */,
+			);
+			path = "Tappy Plane Challenge";
+			sourceTree = "<group>";
+		};
+		3964145B195A178300512203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3964145C195A178300512203 /* Tappy Plane Challenge-Info.plist */,
+				3964145D195A178300512203 /* InfoPlist.strings */,
+				39641460195A178300512203 /* main.m */,
+				39641462195A178300512203 /* Tappy Plane Challenge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3964147E195A178300512203 /* Tappy Plane ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				39641484195A178300512203 /* Tappy_Plane_ChallengeTests.m */,
+				3964147F195A178300512203 /* Supporting Files */,
+			);
+			path = "Tappy Plane ChallengeTests";
+			sourceTree = "<group>";
+		};
+		3964147F195A178300512203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39641480195A178300512203 /* Tappy Plane ChallengeTests-Info.plist */,
+				39641481195A178300512203 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3964144E195A178300512203 /* Tappy Plane Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39641488195A178300512203 /* Build configuration list for PBXNativeTarget "Tappy Plane Challenge" */;
+			buildPhases = (
+				3964144B195A178300512203 /* Sources */,
+				3964144C195A178300512203 /* Frameworks */,
+				3964144D195A178300512203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tappy Plane Challenge";
+			productName = "Tappy Plane Challenge";
+			productReference = 3964144F195A178300512203 /* Tappy Plane Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39641476195A178300512203 /* Tappy Plane ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3964148B195A178300512203 /* Build configuration list for PBXNativeTarget "Tappy Plane ChallengeTests" */;
+			buildPhases = (
+				39641473195A178300512203 /* Sources */,
+				39641474195A178300512203 /* Frameworks */,
+				39641475195A178300512203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3964147D195A178300512203 /* PBXTargetDependency */,
+			);
+			name = "Tappy Plane ChallengeTests";
+			productName = "Tappy Plane ChallengeTests";
+			productReference = 39641477195A178300512203 /* Tappy Plane ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39641447195A178300512203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Miguel Serrano";
+				TargetAttributes = {
+					39641476195A178300512203 = {
+						TestTargetID = 3964144E195A178300512203;
+					};
+				};
+			};
+			buildConfigurationList = 3964144A195A178300512203 /* Build configuration list for PBXProject "Tappy Plane Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39641446195A178300512203;
+			productRefGroup = 39641450195A178300512203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3964144E195A178300512203 /* Tappy Plane Challenge */,
+				39641476195A178300512203 /* Tappy Plane ChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3964144D195A178300512203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3964145F195A178300512203 /* InfoPlist.strings in Resources */,
+				39641472195A178300512203 /* Images.xcassets in Resources */,
+				39641470195A178300512203 /* Spaceship.png in Resources */,
+				39641468195A178300512203 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39641475195A178300512203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39641483195A178300512203 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3964144B195A178300512203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39641465195A178300512203 /* MSAppDelegate.m in Sources */,
+				3964146B195A178300512203 /* MSViewController.m in Sources */,
+				3964146E195A178300512203 /* MSMyScene.m in Sources */,
+				39641461195A178300512203 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39641473195A178300512203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39641485195A178300512203 /* Tappy_Plane_ChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3964147D195A178300512203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3964144E195A178300512203 /* Tappy Plane Challenge */;
+			targetProxy = 3964147C195A178300512203 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3964145D195A178300512203 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3964145E195A178300512203 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39641466195A178300512203 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39641467195A178300512203 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39641481195A178300512203 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39641482195A178300512203 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39641486195A178300512203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39641487195A178300512203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39641489195A178300512203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tappy Plane Challenge/Tappy Plane Challenge-Prefix.pch";
+				INFOPLIST_FILE = "Tappy Plane Challenge/Tappy Plane Challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3964148A195A178300512203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tappy Plane Challenge/Tappy Plane Challenge-Prefix.pch";
+				INFOPLIST_FILE = "Tappy Plane Challenge/Tappy Plane Challenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3964148C195A178300512203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tappy Plane Challenge.app/Tappy Plane Challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tappy Plane Challenge/Tappy Plane Challenge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tappy Plane ChallengeTests/Tappy Plane ChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3964148D195A178300512203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tappy Plane Challenge.app/Tappy Plane Challenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tappy Plane Challenge/Tappy Plane Challenge-Prefix.pch";
+				INFOPLIST_FILE = "Tappy Plane ChallengeTests/Tappy Plane ChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3964144A195A178300512203 /* Build configuration list for PBXProject "Tappy Plane Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39641486195A178300512203 /* Debug */,
+				39641487195A178300512203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39641488195A178300512203 /* Build configuration list for PBXNativeTarget "Tappy Plane Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39641489195A178300512203 /* Debug */,
+				3964148A195A178300512203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3964148B195A178300512203 /* Build configuration list for PBXNativeTarget "Tappy Plane ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3964148C195A178300512203 /* Debug */,
+				3964148D195A178300512203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39641447195A178300512203 /* Project object */;
+}
